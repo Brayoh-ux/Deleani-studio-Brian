@@ -1,0 +1,21 @@
+.first{
+    background-image: url("/img/backgrounds/h_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.first img{
+    margin-top: 17%;
+}
+.first h1{
+    line-height: 4rem;
+}
+.container{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container h1{
+    font-weight: 550;
+}
