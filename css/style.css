@@ -41,24 +41,30 @@
 .col-md-3 img{
     padding-right: 20px;
 }
-.third{
-    text-align: center;
+.forth{
+    margin-top: 30px;
     background-image: url("/img/backgrounds/c_image.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
 }
-.third h1{
-    color: #fff;
-    font-weight: 400;
+.forth h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-.third input{
-    background-color: rgba(255, 255, 255, 0.027);
-    border-radius: 3px white;
-    border-color: #fff;
-    color: #fff;
+.forth input{
+    background-color: rgba(255, 255, 255, 0.199);
+    width: 100%;
+    border-color: white;
+    box-shadow: 0;
 }
-.third textarea{
+.forth textarea{
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.205);
+   
+    border-color: white;
+    margin-bottom: 70px;
+}
+::placeholder{
     color: #fff;
-    background-color: rgba(255, 255, 255, 0.027);
-    border-color: #fff;
-    border-radius: 3px white;
-    border-color: #fff;
 }
