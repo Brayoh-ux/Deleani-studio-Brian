@@ -1,5 +1,5 @@
 .first{
-    background-image: url("img/backgrounds/h_img.png");
+    background-image: url("/img/backgrounds/h_img.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -66,4 +66,15 @@
 }
 ::placeholder{
     color: #fff;
+}
+.fifth{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.fifth img{
+    padding-right: 15px;
+}
+.fifth h3{
+    padding-top: 10px;
 }
