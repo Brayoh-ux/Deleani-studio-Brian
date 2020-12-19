@@ -23,7 +23,6 @@
 .second{
     background-image: url("./img/backgrounds/s_image.jpg");
     background-repeat: no-repeat;
-    background-position: sticky;
     background-size: cover;
     color: #fff;
     text-align: center;
