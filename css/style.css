@@ -19,3 +19,17 @@
 .container h1{
     font-weight: 550;
 }
+.second{
+    background-image: url("/img/backgrounds/s_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.second h1{
+    line-height: 4rem;
+    font-weight: 550;
+    padding-top: 100px;
+}
