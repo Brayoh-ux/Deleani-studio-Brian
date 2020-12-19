@@ -7,6 +7,7 @@
 }
 .first img{
     margin-top: 17%;
+    margin-bottom: 20px;
 }
 .first h1{
     line-height: 4rem;
@@ -22,6 +23,7 @@
 .second{
     background-image: url("/img/backgrounds/s_image.jpg");
     background-repeat: no-repeat;
+    background-position: sticky;
     background-size: cover;
     color: #fff;
     text-align: center;
@@ -32,4 +34,7 @@
     line-height: 4rem;
     font-weight: 550;
     padding-top: 100px;
+}
+.second p{
+    padding-bottom: 80px;
 }
