@@ -41,3 +41,17 @@
 .col-md-3 img{
     padding-right: 20px;
 }
+.third{
+    text-align: center;
+    background-image: url("/img/backgrounds/c_image.jpg");
+}
+.third h1{
+    color: #fff;
+    font-weight: 400;
+}
+.third input{
+    background-color: rgba(255, 255, 255, 0.027);
+    border-radius: 3px white;
+    border-color: #fff;
+    color: #fff;
+}
