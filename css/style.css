@@ -20,7 +20,7 @@
     font-weight: 550;
 }
 .second{
-    background-image: url("/img/backgrounds/s_image.jpg");
+    /* background-image: url("/img/backgrounds/s_image.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -47,7 +47,7 @@
 }
 .forth{
     margin-top: 30px;
-    background-image: url("/img/backgrounds/c_image.png");
+    /* background-image: url("/img/backgrounds/c_image.png"); */
     background-repeat: no-repeat;
     text-align: center;
     color: white;
