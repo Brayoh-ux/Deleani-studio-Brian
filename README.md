@@ -4,7 +4,7 @@
 Brian Mbugua Nderitu
 
 ## Description
-*
+* Delani 
 
 ## Technologies Used
 * HTML5
