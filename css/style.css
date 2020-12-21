@@ -1,5 +1,4 @@
 .first{
-    background-image: url("/img/backgrounds/h_img.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -73,7 +72,6 @@
 ::placeholder{
     color: #fff;
 }
-<<<<<<< HEAD
 .fifth{
     text-align: center;
     padding-top: 50px;
@@ -101,5 +99,3 @@
     display: none;
     width: 70%;
 }
-=======
->>>>>>> 46247d856354d7bbae7a054e6c7970362694d5e7
