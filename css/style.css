@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&display=swap');
 .first{
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
     text-align: center;
-    background-color: orange;
+    background-color: rgb(235, 194, 118);
 }
 .first img{
     margin-top: 17%;
@@ -11,6 +13,8 @@
 }
 .first h1{
     line-height: 4rem;
+    font-family: 'Kaushan Script', cursive;
+    text-shadow: gray 2px 3px 5px;
 }
 .container{
     text-align: center;
@@ -19,6 +23,7 @@
 }
 .container h1{
     font-weight: 550;
+    font-family: 'Kaushan Script', cursive;
 }
 .second{
     /* background-image: url("/img/backgrounds/s_image.jpg"); */
@@ -33,6 +38,7 @@
     line-height: 4rem;
     font-weight: 550;
     padding-top: 100px;
+    font-family: 'Kaushan Script', cursive;
 }
 .second p{
     padding-bottom: 80px;
@@ -45,6 +51,9 @@
 }
 .third p{
     padding-top: 10px;
+    font-family: 'Old Standard TT', serif;
+    font-size: 1.3rem;
+    font-weight: 550;
 }
 .forth{
     margin-top: 30px;
@@ -57,6 +66,7 @@
 .forth h1{
     padding-top: 30px;
     padding-bottom: 30px;
+    font-family: 'Kaushan Script', cursive;
 }
 .forth input{
     background-color: rgba(255, 255, 255, 0.199);
@@ -67,7 +77,7 @@
 .forth textarea{
     width: 70%;
     background-color: rgba(255, 255, 255, 0.205);
-   
+    color: #fff;
     border-color: white;
     margin-bottom: 70px;
 }
@@ -85,7 +95,7 @@
 .fifth h3{
     padding-top: 10px;
 }
-.showing{
+.hidden{
     display: none;
 }
 .port{
@@ -99,5 +109,13 @@
     font-size: large;
     text-align: center;
     display: none;
+    cursor: pointer;
     width: 70%;
+    font-weight: bolder;
+    transition: 0.5s ease;
+}
+button{
+    background-color: rgba(0, 0, 0, 0.247);
+    color: #fff;
+    border-radius: 10px;
 }

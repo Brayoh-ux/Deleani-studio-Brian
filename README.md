@@ -18,6 +18,9 @@ Then we help translate them into effective and elegant solutions.
 ## Setup and Istallation Requirements
 * No istallations required
 
+## Known Bugs
+* Images not loading properly
+
 ## Link
 * https://brianmbugua5693.github.io/Deleani-studio-Brian/
 

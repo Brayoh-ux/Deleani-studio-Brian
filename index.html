@@ -17,7 +17,7 @@
         <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
         <img src="./img/mouse_click.png" >
     </div>
-    <div class="container">
+    <div class="container about">
         <h1>ABOUT US</h1>
         <p>When you work with us, you are part of a team of committed collaborators.All aspectsof our software development process are intergrated,interactive <br>
         and agile.</p>
@@ -35,17 +35,23 @@
     <div class="container third" >
         <h1>WHAT WE DO</h1>
         <div class="row">
-            <div class="col-md-4 hidden">
-                <img src="./img/services_icons/design_icon.png" class="clickable">
-                <p class="showing clickable">DESIGN</p>
+            <div class="col-md-4 ">
+                <img src="./img/services_icons/design_icon.png" class="clickable showing">
+                <p class="hidden clickable">DESIGN <br>
+                    Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+                    Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
             </div>
-            <div class="col-md-4 hidden">
-                <img src="./img/services_icons/dev_icon.png" class="clickable">
-                <p class="showing clickable">DEVELOPMENT</p>
+            <div class="col-md-4 ">
+                <img src="./img/services_icons/dev_icon.png" class="clickable showing">
+                <p class="hidden clickable">DEVELOPMENT <br>
+                    All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                    They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
             </div>
-            <div class="col-md-4 hidden">
-                <img src="./img/services_icons/product_icon.png" class="clickable">
-                <p class="showing clickable">PRODUCT MANAGEMENT</p>
+            <div class="col-md-4 ">
+                <img src="./img/services_icons/product_icon.png" class="clickable showing">
+                <p class="hidden clickable">PRODUCT MANAGEMENT <br>
+                    Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
+                    This iterative process allows for changes as business requirements evolve.</p>
             </div>
         </div>
         <h1 class="port">PORTFOLIO</h1>
@@ -56,7 +62,7 @@
             </div>
             <div class="col-md-3 textWithImg">
                 <img src="./img/portfolio/work2.jpg" width="260px" >
-                <h2>BROWNIE </h2>
+                <h2>PYRAMID </h2>
             </div>
             <div class="col-md-3 textWithImg">
                 <img src="./img/portfolio/work3.jpg" width="260px" >
@@ -64,13 +70,13 @@
             </div>
             <div class="col-md-3 textWithImg">
                 <img src="./img/portfolio/work4.jpg" width="260px">
-                <h2 >WORK4 </h2>
+                <h2 >DESIGN</h2>
             </div>
         </div> <br>
         <div class="row">
             <div class="col-md-3 textWithImg">
                 <img src="./img/portfolio/work5.jpg" width="260px" >
-                <h2>NICE DAY</h2>
+                <h2>LETS CHART</h2>
             </div>
             <div class="col-md-3 textWithImg">
                 <img src="./img/portfolio/work6.jpg" width="260px" >
@@ -88,7 +94,7 @@
     </div>
     <div class="container-fluid forth" style="background-image: url(./img/backgrounds/c_image.png);">
         <h1>CONTACT US</h1>
-        <form class="message">
+        <form >
             <div class="row">
                 <div class="col-md-6">
                     <input type="text" placeholder="Name... " id="name" required>
@@ -100,6 +106,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <textarea name="comments" id="comments" cols="40" rows="15" placeholder="Enter a message..." required></textarea>
+                    <button type="submit">Send</button>
                 </div>
             </div>
         </form>
