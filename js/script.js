@@ -8,21 +8,27 @@ $(document).ready(function(){
         
     });
     $(".textWithImg").hover (function(){
-        $("h2").css({"background-color": "rgba(0, 0, 0, 0.689)", "border-radius": "10px", "padding-top": "20px", "padding-bottom": "20px"});
+        $("h2").css({"background-color": " rgba(255, 255, 255, 0.725", "border-radius": "10px", "padding-top": "20px", "padding-bottom": "20px"});
         $(this).children(":not(img)").fadeToggle(100, "linear");
     });
-    
+    $("button").click(function(event){
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var text = document.getElementById('comments').value;
+
+        if((name == "") || (email == "") || (text == "")){
+            alert("Please enter empty fields!");
+        }
+        else{
+            alert(name + ' we have received your message. Thank you fro reaching out to us.');
+        }
+        event.preventDefault();
+    });
+    $("button").on('click', function(){
+        $('form').each(function(){
+            this.reset();
+        });
+    });
 });
 
-
-$("h2").show();
-        $("h2").css({"background-color": "rgba(0, 0, 0, 0.589)", "border-radius": "10px"});
-        $("h2").click(function(){
-            $("h2").css({"background-color": "rgba(0, 0, 0, 0.589)", "border-radius": "10px"});
-            $("h2").show();
-            $("h2").hide();
-        });
-
-
-        $("").toggle();
-        $(".hidden").show();
+       

@@ -4,9 +4,7 @@
 Brian Mbugua Nderitu
 
 ## Description
-* Delani  unifies design,development and product management to create exceptional products.
-We start each project by understanding your busines goals, the user's needs and the product requirements
-Then we help translate them into effective and elegant solutions.
+* This is a project that details what Delani Studio does and their work. it allows users to send messages and receive email confirmations n receival of the messages by the company.
 
 ## Technologies Used
 * HTML5
@@ -15,13 +13,38 @@ Then we help translate them into effective and elegant solutions.
 * Bootstrap
 * JQuery
 
+## Behavior Driven Development
+<table>
+    <tr>
+      <th>Behavior</th> 
+      <th>Input</th> 
+      <th>Output</th>   
+    </tr>
+    <tr>
+        <td>Enter name</td>
+        <td>Brian</td>
+        <td>name = 'Brian'</td>
+    </tr>
+    <tr>
+        <td>Enter Email && Message</td>
+        <td>['Email','Message']</td>
+        <td>Email && Message</td>
+    </tr>
+    <tr>
+        <td>Submit</td>
+        <td>Email && Message</td>
+        <td>Brian we have received your message. Thank you fro reaching out to us.</td>
+    </tr>  
+</table>
+
 ## Setup and Istallation Requirements
 * No istallations required
 
 ## Known Bugs
 * Images not loading properly
+* email confirmations not yet working.
 
-## Link
+## Link to live site
 * https://brianmbugua5693.github.io/Deleani-studio-Brian/
 
  ## ContactInfo
