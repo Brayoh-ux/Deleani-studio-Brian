@@ -51,7 +51,7 @@ Brian Mbugua Nderitu
 
  ## ContactInfo
  * For any concerns or issue contact at :
- * bnderitu48@gmail.com
+ * <a href="bnderitu48@gmail.com">Brian Mbugua</a>
 
 ## License
 * MIT License
