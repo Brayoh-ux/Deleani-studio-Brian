@@ -92,7 +92,7 @@
 }
 .textWithImg :not(img){
     position: absolute;
-    top: 10%;
+    top: 30%;
     z-index: 1;
     color: rgb(243, 240, 240);
     font-size: large;
