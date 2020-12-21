@@ -3,6 +3,7 @@
     background-size: cover;
     color: #fff;
     text-align: center;
+    background-color: orange;
 }
 .first img{
     margin-top: 17%;
@@ -26,7 +27,7 @@
     color: #fff;
     text-align: center;
     padding-top: 20px;
-
+    background-color: rgba(0, 0, 0, 0.603);
 }
 .second h1{
     line-height: 4rem;
@@ -51,6 +52,7 @@
     background-repeat: no-repeat;
     text-align: center;
     color: white;
+    background-color: rgba(0, 0, 0, 0.541);
 }
 .forth h1{
     padding-top: 30px;
