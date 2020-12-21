@@ -40,6 +40,12 @@
 .col-md-3 img{
     padding-right: 20px;
 }
+.third h1{
+    padding-bottom: 10px;
+}
+.third p{
+    padding-top: 10px;
+}
 .forth{
     margin-top: 30px;
     background-image: url("/img/backgrounds/c_image.png");
@@ -77,4 +83,20 @@
 }
 .fifth h3{
     padding-top: 10px;
+}
+.showing{
+    display: none;
+}
+.port{
+    padding-top: 12px;
+}
+.textWithImg :not(img){
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.39);
+    border-radius: 12px;
 }
