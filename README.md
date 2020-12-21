@@ -37,6 +37,8 @@ Brian Mbugua Nderitu
     </tr>  
 </table>
 
+* Remember to click on the what we do icons to see  brief explanations available.
+
 ## Setup and Istallation Requirements
 * No istallations required
 
